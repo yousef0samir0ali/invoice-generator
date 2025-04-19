@@ -10,3 +10,11 @@
 body {
   background-color: #f5f5f5;
 }
+@media (max-width: 567px) {
+  body {
+    transform: scale(0.5);
+    transform-origin: top left;
+    width: 200%;
+    height: 200%;
+  }
+}
